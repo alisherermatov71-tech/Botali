@@ -9,18 +9,13 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 # ========== CONFIG ==========
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8811948718:AAEoP4731AVb-vYoezwj5U_Z8vqDESpSNpI")
-ADMIN_ID = int(os.getenv("ADMIN_ID", 8078029788))
-GRIZZLY_API = os.getenv("GRIZZLY_API", "bc7da6d7866c44761b0ad51b3e9482a6")
-USD_TO_KZT = 500
-MARGIN = 1.2 # 20% үстеме
-REF_BONUS = 15
-KASPI_NUM = "77471164091"
-KASPI_NAME = "АББОС П"
-CARD_NUM = "4400430307661584"
-CARD_NAME = "АБДУЛЛО П"
-DB_NAME = "grizzly.db"
-API_URL = "https://grizzlysms.com/stubs/handler.php"
+BOT_TOKEN = os.getenv("8811948718:AAFdOntmm5ovT48IJPZlpAe9DiBh8lSaQ3Y", "119ADMIN)
+ADMIN_ID = int(os.getenv("ADMIN_ID", 807802GRIZZLYGRIZZLY_API = os.getenv("GRIZZLY_API", "bc7da6d7866c44761b0ad51b3e9482a6")
+USD_TO_KZTMARGIN
+MARGIN = 1.2 # 20% үстеBONUSF_BONUS = 15
+KASPI_NUM = "77471164091"NAMEPI_NAME = "АББОС П"
+CARD_NUM = "4400430307661584NAMERD_NAME = "АБДУDBО П"
+DB_NAME = "grizzly.dURLAPI_URL = "https://grizzlysms.com/stubs/handler.php"
 
 COUNTRIES = {
     "0": "🇷🇺 Ресей", "1": "🇺🇸 АҚШ", "2": "🇺🇦 Украина", "3": "🇬🇧 Ұлыбритания",
